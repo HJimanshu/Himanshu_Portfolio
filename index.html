@@ -23,6 +23,7 @@
             <div class="logo">
                 <p><a href=""><span class="highlight">H</span>imanshu's Portfolio</a></p>
             </div>
+            <div class="toggle-menu" onclick="toggleNav()">☰</div>
             <div class="nav-bar">
                 <nav>
                     <ul>
@@ -651,6 +652,14 @@
 
         </footer>
     </div>
+
+    <script>
+  function toggleNav() {
+    document.querySelector('.nav-bar').classList.toggle('show');
+  }
+</script>
+
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <!-- Setup and start animation! -->

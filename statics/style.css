@@ -17,6 +17,10 @@ html, body {
     width: 100%;
     height: auto;
 }
+.toggle-menu {
+  display: none;
+}
+
 .container header {
   width: 1250px;
   height: 80px;
@@ -135,11 +139,9 @@ position: relative;
       padding: 10px 15px;
       color: white;
       text-decoration: none;
-      /* text-align: start; */
- 
-    /* z-index: 1; */
+      
  }
-
+ 
 
  /* Initially hide dropdown */
 .container header .nav-bar nav ul li ul {
@@ -157,16 +159,7 @@ position: relative;
   
 }
 .container header .nav-bar nav ul li:nth-child(4) ul {
-  position: absolute;
-  top: 50px;
   left: -350px;
-  display: none;
-  flex-direction: column;
-  min-width: 747px;
-  z-index: 100;
-  text-align: start;
-  background-color: rgba(252, 249, 249, 0.4);
-  
 }
 
 /* Show when .active is added */
@@ -1481,7 +1474,7 @@ padding: 10px;
 }
 
 .footer-container hr:nth-child(2){
-  width: 1180px;
+  width: 100%;
   position: absolute;
 left: 160px;
   opacity: 0.2;
@@ -1490,14 +1483,135 @@ left: 160px;
 
 
 /* Responsive - 2 columns on tablets, 1 column on phones */
-@media (max-width: 992px) {
-    .card {
-        width: calc(50% - 20px);
-    }
-}
-@media (max-width: 600px) {
+/* @media (max-width: 992px) {
+    .card { */
+        /* width: calc(50% - 20px); */
+    /* }
+} */
+/* @media (max-width: 600px) {
     .card {
         width: 100%;
     }
+} */
+
+
+/* ===========================
+   Responsive (Mobile/Tablet)
+=========================== */
+@media (max-width: 991px) {
+  .toggle-menu {
+    display: block;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+    order: 2;
+    margin-left: auto;
+    padding: 10px 20px;
+  }
+  .container header {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .container header .nav-bar {
+    width: 100%;
+    order: 3;
+    display: none;
+    flex-direction: column;
+    background-color: rgba(27, 105, 161, 0.95);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .container header .nav-bar nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .container header .nav-bar nav ul li {
+    width: 100%;
+    padding: 5px 0;
+  }
+
+  .container header .btn-contact {
+    order: 2;
+    width: auto;
+  }
+
+  .container header .toggle-menu {
+    display: block;
+    cursor: pointer;
+    font-size: 28px;
+    color: white;
+    margin-left: auto;
+  }
+
+  .container header .nav-bar.show {
+    display: flex;
+  }
+   .container header .nav-bar nav ul li {
+    width: 100%;
+  }
+
+  .container header .nav-bar nav ul li ul {
+    position: relative;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-left: 10px;
+    display: none; /* Hidden by default, shown with .active */
+  }
+
+  .container header .nav-bar nav ul li.active > ul {
+    display: flex;
+  }
+
+  /* Optional animation */
+  .container header .nav-bar nav ul li ul li a {
+    padding-left: 20px;
+    color: #fff;
+    opacity: 1;
+  }
+  .dropdown .dropdown-content {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    min-width: 100%;
+    padding-left: 10px;
+    box-shadow: none;
+  }
+
+  .dropdown.active .dropdown-content {
+    display: flex;
+  }
+
+  .dropdown-content li a {
+    padding: 10px 15px;
+    color: #fff;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .dropdown-content li a:hover {
+    background-color: rgba(255,255,255,0.2);
+  }
+
+  .dropdown-toggle::after {
+    float: right;
+  }
 }
 
+@media (max-width: 576px) {
+  .container header .logo p {
+    font-size: 22px;
+  }
+
+  .container header .btn-contact button {
+    padding: 8px 20px;
+    font-size: 16px;
+  }
+}
