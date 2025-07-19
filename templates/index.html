@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/statics/style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Include Devicon CDN in <head> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <p><a href=""><span class="highlight">H</span>imanshu's Portfolio</a></p>
+            </div>
+            <div class="nav-bar">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle">Services</a>
+                            <ul class="dropdown-content">
+                                <li><a href="#webDesign">Web Design</a></li>
+                                <li><a href="#WebDevelopment">Web Development</a></li>
+                                <li><a href="#PortfolioWebsite">Portfolio Website</a></li>
+                                <li><a href="#APIDevelopment">API Development</a></li>
+                                <li><a href="#DatabaseManagement"> Database Management</a></li>
+                                <li><a href="#CloudDeployment">Cloud Hosting</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle">Projects</a>
+                            <ul class="dropdown-content">
+                                <li><a href="#">Portfolio Website</a></li>
+                                <li><a href="#">Dashboard System</a></li>
+                                <li><a href="#">AI Video Tool</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Blogs</a></li>
+
+                        <div class="btn-contact">
+
+                            <button>Contact</button>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+
+        </header>
+        <main>
+            <div class="main-container">
+                <div class="intro ">
+                    <!-- <div class="heading"> -->
+                    <!-- <h1>Hi,I'm Himanshu</h1> -->
+                    <div class="profile">
+                        <div>Hii, My name is <span class="purple"> Himanshu</span>
+                            and i am passionate </div>
+                        <h5> <span id="element"></span></h5>
+                    </div>
+
+                    <div class="para">
+                        <p>I love to create beautiful and efficient <br>websites</p>
+                        <div class="btn">
+                            <button> <a href="https://resume-template-45ju.vercel.app/" target="_blank"
+                                    style="text-decoration: none; color: black;">View CV</a></button>
+                            <button class="cont "><i class="bx bxs-user"></i> Hire Me!</button>
+
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <div class="counter">
+                    <div class="counter-item" data-target="5">
+                        <h2>0+</h2>
+                        <p>Production Projects</p>
+                    </div>
+                    <div class="counter-item" data-target="10">
+                        <h2>0+</h2>
+                        <p>Demo Projects</p>
+                    </div>
+                    <div class="counter-item" data-target="20">
+                        <h2>20+</h2>
+                        <p>Personal projects</p>
+                    </div>
+
+                </div>
+
+
+                <div class="main-about" id="about">
+                    <div class="heading">
+                        <h2>About</h2>
+                        <hr>
+
+                    </div>
+                    <div class="about">
+
+                        <div class="image">
+                            <img src="/statics/photo.jpeg" alt="photo">
+                            <div class="tools">
+                                <h2>Tools I used</h2>
+                                <ul class="tool-icons">
+                                    <li><i class="devicon-git-plain colored"></i> Git</li>
+                                    <li><i class="devicon-pycharm-plain colored"></i> Pycharm</li>
+                                    <li><i class="devicon-visualstudio-plain colored"></i> Visual Studio</li>
+                                    <li><i class="devicon-mysql-plain colored" style="color: yellow;"></i> PhpMyAdmin
+                                    </li>
+                                    <li><i class="devicon-googlecloud-plain colored"
+                                            style="color: rgb(16, 92, 75);"></i> GCP</li>
+                                    <li><i class="devicon-linux-plain colored" style="color: rgb(7, 36, 14);"></i> Linux
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+                        <div class="para">
+                            <h2>WHO I AM</h2>
+                            <p>I'm Passionate Web Designer and Developer with over 1 years of experience creating
+                                Impactful applications for a Companies and clients.I'm from beautiful state name is
+                                Himachal Pradesh.I combine
+                                strategic thinking with creative execution to deliver designs that not only look
+                                beautiful but also solve real time problems and implemented with all backend api's
+                                smoothly. <br><br>
+                                My approach is collaborative and user-centered, focused on understanding the unique
+                                needs of each project.I'm continuously working on projects(Idea's) to improve and more
+                                effective and
+                                reliable for the clients.</p>
+                            <div class="skills">
+                                <br>
+                                <h2>MY SKILLS</h2>
+
+                                <div class="skill">
+                                    <label for="">Python</label>
+                                    <progress id="file" value="98" max="100"> 32% </progress>
+                                </div>
+                                <div class="skill">
+                                    <label for="">Django</label>
+                                    <progress id="file" value="95" max="100"> 32% </progress>
+                                </div>
+                                <div class="skill">
+                                    <label for="">Fastapi</label>
+                                    <progress id="file" value="90" max="100"> 32% </progress>
+                                </div>
+                                <div class="skill">
+                                    <label for="">HTML5</label>
+                                    <progress id="file" value="88" max="100"> 32% </progress>
+                                </div>
+                                <div class="skill">
+                                    <label for="">CSS</label>
+                                    <progress id="file" value="85" max="100"> 32% </progress>
+                                </div>
+                                <div class="skill">
+                                    <label for="">SQL</label>
+                                    <progress id="file" value="80" max="100"> 32% </progress>
+                                </div>
+                                <div class="skill">
+                                    <label for="">Javascript</label>
+                                    <progress id="file" value="60" max="100"> 32% </progress>
+                                </div>
+                                <div class="skill">
+                                    <label for="">Clouds</label>
+                                    <progress id="file" value="50" max="100"> 32% </progress>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="tech-scroller">
+                    <h1>Technologies I am used</h1>
+                    <ul class="scrolling-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                        <li>Python</li>
+                        <li>Django</li>
+                        <li>Flask</li>
+                        <li>FastAPI</li>
+                        <li>MySQL</li>
+                        <li>SQL</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+                <div class="main-services">
+                    <div class="heading">
+                        <h2>Services</h2>
+                        <hr>
+
+                    </div>
+
+
+                    <div class="services">
+                        <div class="card" id="webDesign">
+                            <img src="/statics/design.jpg" alt="photo">
+                            <div class="card-text">
+                                <h3>Web Design</h3>
+                                <p>Creating visually appealing and user-friendly websites that enhance user experience
+                                    and engagement.</p>
+                            </div>
+                        </div>
+                        <div class="card" id="WebDevelopment">
+                            <img src="/statics/developer.jpg" alt="photo">
+                            <div class="card-text">
+                                <h3>Web Development</h3>
+                                <p>Building robust and scalable web applications using modern technologies and
+                                    frameworks to meet client needs.</p>
+                            </div>
+                        </div>
+                        <div class="card" id="PortfolioWebsite">
+                            <img src="/statics/paper.jpg" alt="photo">
+                            <div class="card-text">
+                                <h3>Paper Portfolio Website</h3>
+                                <p>Developed and maintained a portfolio website with enhanced design, functionality, and
+                                    custom styling. Managed a cPanel-deployed codebase for seamless updates and optimal
+                                    performance.</p>
+                            </div>
+                        </div>
+                        <div class="card" id="APIDevelopment">
+                            <img src="/statics/download.png" alt="photo">
+                            <div class="card-text">
+                                <h3>API Development</h3>
+                                <p>Designing and implementing RESTful APIs to facilitate seamless communication between
+                                    front-end and back-end.</p>
+                            </div>
+                        </div>
+                        <div class="card" id="DatabaseManagement">
+                            <img src="/statics/dbms.png" alt="photo">
+                            <div class="card-text">
+                                <h3>Database Management</h3>
+                                <p>Managing and optimizing databases to ensure data integrity, security, and efficient
+                                    retrieval for web applications.</p>
+                            </div>
+                        </div>
+                        <div class="card" id="CloudDeployment">
+                            <img src="/statics/download.jpg" alt="photo">
+                            <div class="card-text">
+                                <h3>Cloud Deployment</h3>
+                                <p>Deploying web applications on cloud platforms like AWS, Azure, or Google Cloud for
+                                    scalability.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="main-projects">
+
+                    <div class="heading">
+                        <h2>Work-Experience/Projects</h2>
+                        <hr>
+
+                    </div>
+                    <div class="projects">
+                        <div class="card">
+                            <a href="">
+
+                                <img src="/statics/images.jpeg" alt="photo">
+                                 <span class="preview-button">Preview</span>
+                            </a>
+                            <div class="card-text">
+                                <h3>FastAPI Development for GCP Services</h3>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="">
+
+                                <img src="/statics/images.jpeg" alt="photo">
+                                 <span class="preview-button">Preview</span>
+
+                            </a>
+                            <div class="card-text">
+                                <h3>Response Data Processing for Neo4j Graph
+                                </h3>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="">
+
+                                <img src="/statics/images.jpeg" alt="photo">
+                                 <span class="preview-button">Preview</span>
+
+                            </a>
+                            <div class="card-text">
+                                <h3>Paper Portfolio Website
+                                </h3>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="https://vercel-frontend-sc7v.onrender.com">
+
+                                <img src="/statics/images.jpeg" alt="photo">
+                                 <span class="preview-button">Preview</span>
+
+                            </a>
+                            <div class="card-text">
+                                <h3>Python Web Developer</h3>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="">
+
+
+                                <img src="/statics/weather.png " alt="photo">
+                                 <span class="preview-button">Preview</span>
+
+                            </a>
+                            <div class="card-text">
+                                <h3>Weather App 
+                                </h3>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <a href="https://resume-template-eta.vercel.app/">
+
+                                <img src="/statics/images.jpeg" alt="photo">
+                                 <span class="preview-button">Preview</span>
+
+                            </a>
+                            <div class="card-text">
+                                <h3>Web Development</h3>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="main-blogs">
+                    <div class="heading">
+                        <h2>Blogs</h2>
+                        <hr>
+
+                    </div>
+                    <div class="blogs">
+
+                        <div class="slide-container swiper">
+                            <div class="slide-content">
+                                <div class="card-wrapper swiper-wrapper">
+                                    <div class="card swiper-slide">
+                                        <div class="image-content">
+                                            <span class="overlay"></span>
+                                            <div class="card-image">
+                                                <img src="/statics/coming.jpg" alt="" class="card-img">
+                                            </div>
+                                        </div>
+                                        <div class="card-content">
+                                            <h2 class="name">David Dell</h2>
+                                            <p class="description">The lorem text the section that contains header with
+                                                having open functionality. Lorem
+                                                dolor sit amet consectetur adipisicing elit.</p>
+                                            <div class="button">
+                                                <p>date-time</p>
+                                                <button>View More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card swiper-slide">
+                                        <div class="image-content">
+                                            <span class="overlay"></span>
+                                            <div class="card-image">
+                                                <img src="/statics/coming.jpg" alt="" class="card-img">
+                                            </div>
+                                        </div>
+                                        <div class="card-content">
+                                            <h2 class="name">David Dell</h2>
+                                            <p class="description">The lorem text the section that contains header with
+                                                having open functionality. Lorem
+                                                dolor sit amet consectetur adipisicing elit.</p>
+                                            <div class="button">
+                                                <p>date-time</p>
+                                                <button>View More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card swiper-slide">
+                                        <div class="image-content">
+                                            <span class="overlay"></span>
+                                            <div class="card-image">
+                                                <img src="/statics/coming.jpg" alt="" class="card-img">
+                                            </div>
+                                        </div>
+                                        <div class="card-content">
+                                            <h2 class="name">David Dell</h2>
+                                            <p class="description">The lorem text the section that contains header with
+                                                having open functionality. Lorem
+                                                dolor sit amet consectetur adipisicing elit.</p>
+                                            <div class="button">
+                                                <p>date-time</p>
+                                                <button>View More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card swiper-slide">
+                                        <div class="image-content">
+                                            <span class="overlay"></span>
+                                            <div class="card-image">
+                                                <img src="/statics/coming.jpg" alt="" class="card-img">
+                                            </div>
+                                        </div>
+                                        <div class="card-content">
+                                            <h2 class="name">David Dell</h2>
+                                            <p class="description">The lorem text the section that contains header with
+                                                having open functionality. Lorem
+                                                dolor sit amet consectetur adipisicing elit.</p>
+                                            <div class="button">
+                                                <p>date-time</p>
+                                                <button>View More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card swiper-slide">
+                                        <div class="image-content">
+                                            <span class="overlay"></span>
+                                            <div class="card-image">
+                                                <img src="/statics/coming.jpg" alt="" class="card-img">
+                                            </div>
+                                        </div>
+                                        <div class="card-content">
+                                            <h2 class="name">David Dell</h2>
+                                            <p class="description">The lorem text the section that contains header with
+                                                having open functionality. Lorem
+                                                dolor sit amet consectetur adipisicing elit.</p>
+                                            <div class="button">
+                                                <p>date-time</p>
+                                                <button>View More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card swiper-slide">
+                                        <div class="image-content">
+                                            <span class="overlay"></span>
+                                            <div class="card-image">
+                                                <img src="/statics/coming.jpg" alt="" class="card-img">
+                                            </div>
+                                        </div>
+                                        <div class="card-content">
+                                            <h2 class="name">David Dell</h2>
+                                            <p class="description">The lorem text the section that contains header with
+                                                having open functionality. Lorem
+                                                dolor sit amet consectetur adipisicing elit.</p>
+                                            <div class="button">
+                                                <p>date-time</p>
+                                                <button>View More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card swiper-slide">
+                                        <div class="image-content">
+                                            <span class="overlay"></span>
+                                            <div class="card-image">
+                                                <img src="/statics/coming.jpg" alt="" class="card-img">
+                                            </div>
+                                        </div>
+                                        <div class="card-content">
+                                            <h2 class="name">David Dell</h2>
+                                            <p class="description">The lorem text the section that contains header with
+                                                having open functionality. Lorem
+                                                dolor sit amet consectetur adipisicing elit.</p>
+                                            <div class="button">
+                                                <p>date-time</p>
+                                                <button>View More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card swiper-slide">
+                                        <div class="image-content">
+                                            <span class="overlay"></span>
+                                            <div class="card-image">
+                                                <img src="/statics/coming.jpg" alt="" class="card-img">
+                                            </div>
+                                        </div>
+                                        <div class="card-content">
+                                            <h2 class="name">David Dell</h2>
+                                            <p class="description">The lorem text the section that contains header with
+                                                having open functionality. Lorem
+                                                dolor sit amet consectetur adipisicing elit.</p>
+                                            <div class="button">
+                                                <p>date-time</p>
+                                                <button>View More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card swiper-slide">
+                                        <div class="image-content">
+                                            <span class="overlay"></span>
+                                            <div class="card-image">
+                                                <img src="/statics/coming.jpg" alt="" class="card-img">
+                                            </div>
+                                        </div>
+                                        <div class="card-content">
+                                            <h2 class="name">David Dell</h2>
+                                            <p class="description">The lorem text the section that contains header with
+                                                having open functionality. Lorem
+                                                dolor sit amet consectetur adipisicing elit.</p>
+                                            <div class="button">
+                                                <p>date-time</p>
+                                                <button>View More</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next swiper-navBtn"></div>
+                            <div class="swiper-button-prev swiper-navBtn"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-container">
+                    <div class="heading">
+                        <h2>Contact Us</h2>
+                        <hr>
+
+                    </div>
+
+                    <form action="">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Your email..">
+
+
+
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+
+
+                <div class="main-testimonials">
+
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div class="container">
+
+                    <div class="footer-logo">
+                        <div class="logo">
+
+                            <p><span class="highlight">H</span>imanshu</p>
+                        </div>
+                        <div class="para">
+                            <p>I love to create beautiful and efficient websites.</p>
+
+                        </div>
+                        <hr>
+
+                        <div class="social-link">
+                            <h3>Social Link</h3>
+                            <div class="social-icons">
+                                <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                                <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="btn top-btn">
+
+                            <button id="backToTopBtn" class="back-to-top">
+                                <i class="fas fa-arrow-up"></i>
+                                Back to Top
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <div class="footer-links">
+                        <div class="section1">
+                            <div class="heading">
+                                <h3>Quick Links</h3>
+                            </div>
+                            <nav>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Mission</a></li>
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="#">Projects</a></li>
+                                    <li><a href="#">Blogs</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">Help & Supports</a></li>
+
+
+
+
+
+                                </ul>
+                            </nav>
+
+                        </div>
+                        <div class="section2">
+                            <div class="heading">
+                                <h3>Contact Us</h3>
+                                <p style="color: #fff;">1085,3b2,sector60,<br>Mohali Stadium Road,<br>170059.</p>
+                            </div>
+                            <div class="address">
+                                <div class="para">
+                                    <div class="cont">
+
+                                        <p style="color: #fff;"><b style="color: #0f0f0f;">Phone
+                                                number</b><br>1234567890</p>
+                                        <p style="color: #fff;"><b
+                                                style="color: #0f0f0f;">Email</b><br>support@gmail.com</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <hr>
+                <div class="footer-content">
+                    <p>© 2025 Himanshu. All rights reserved.</p>
+
+                </div>
+            </div>
+
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer !!!'],
+            typeSpeed: 60,
+        });
+    </script>
+    <script src="/scripts/scripts.js"></script>
+
+</body>
+
+</html>
