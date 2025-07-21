@@ -151,3 +151,17 @@ document.addEventListener('click', function () {
     header.classList.remove('scrolled');
   }
 });
+
+
+// Show the message when "Hire Me" is clicked
+document.getElementById("hireBtn").addEventListener("click", function () {
+  const messageBox = document.getElementById("hireMessage");
+  messageBox.classList.toggle("hidden");
+
+  // Scroll to the message if it is shown
+  if (!messageBox.classList.contains("hidden")) {
+    messageBox.scrollIntoView({ behavior: "smooth" });
+  }
+});
+
+

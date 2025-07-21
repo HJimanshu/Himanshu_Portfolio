@@ -1231,7 +1231,7 @@ footer .footer-container{
 
 
 footer .footer-container .container .footer-logo{
-  width: 30%;
+  width: 50%;
   padding: 35px;
 }
 footer .footer-container .container .footer-logo .logo{
@@ -1282,7 +1282,7 @@ font-size: 22px;
 }
 
 footer .footer-container .container .footer-links{
-  width: 70%;
+  width: 50%;
   /* padding: 35px 0; */
   display: flex;
   justify-content: space-between;
@@ -1418,18 +1418,18 @@ top: 0px;
 }
 
 footer .footer-container .container .footer-links .section2 .address .cont{
-display: flex;
-padding: 20px 0;
+/* display: flex; */
+/* padding: 20px 0; */
 gap: 30px;
 }
 
 footer .footer-container .container .footer-links .section2 .address .cont p{
 line-height: 30px;
 }
-footer .footer-container .container .footer-links .section2 .address .cont p b{
+/* footer .footer-container .container .footer-links .section2 .address .cont p b{
 font-size: 22px;
 transition: .5s;
-}
+} */
 
 footer .footer-container .container .footer-links .section2 .address .cont p b:hover{
 border-bottom: 1px solid #FFF;
@@ -1474,10 +1474,11 @@ padding: 10px;
 }
 
 .footer-container hr:nth-child(2){
-  width: 100%;
-  position: absolute;
-left: 160px;
-  opacity: 0.2;
+  width: 1250px;
+  margin: 0 auto;
+  /* position: absolute;
+left: 160px; */
+  opacity: 0.8;
 }
 
 
@@ -1614,4 +1615,65 @@ left: 160px;
     padding: 8px 20px;
     font-size: 16px;
   }
+}
+
+
+/* Floating Button Style */
+#chooseBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+
+
+
+
+/* Style for the message box */
+.message-box {
+    /* background: radial-gradient(circle, rgba(27, 105, 161, 1) 70%, rgba(137, 179, 226, 1) 100%); */
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1250px;
+  border-radius: 10px;
+box-shadow: 0 0 10px #1b69a1;
+  font-family: sans-serif;
+  color: #ada6a6;
+  display: flex;
+  font-size: 14px;
+  justify-content: space-evenly;
+ margin-bottom: 0;
+}
+
+/* Hidden by default */
+.hidden {
+  display: none;
+}
+.message-box  h2{
+color: #ebe8e8;
+  font-size: 18px;
+  margin-bottom: 10px;
+
+}
+.message-box .div1{
+  width: 50%;
+}
+
+.message-box .div2{
+  width: 50%;
+  border-left: #476880 solid 1px;
+  padding-left: 10px;
+
+}
+.message-box .div2 p{
+  line-height: 25px;
 }

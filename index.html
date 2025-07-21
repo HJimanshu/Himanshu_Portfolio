@@ -59,8 +59,42 @@
             </div>
 
         </header>
+
+
+
+        <div class="message-section">
+
+            <div id="hireMessage" class="message-box hidden">
+                <div class="div1">
+
+                    <h2>WHY CHOOSE HIMANSHU?</h2>
+                    <p>
+                        I offer affordable, reliable, and creative website development solutions tailored to your unique
+                        needs. Whether you're a business or an individual, I aim to deliver professional, clean, and
+                        fast websites — even before payment, I provide a free test sample to ensure you're satisfied
+                        with the direction and quality.
+                    </p>
+                    <p>
+                        I'm committed to working genuinely and effectively for your success. Your satisfaction is my top
+                        priority.
+                    </p>
+                </div>
+                <div class="div2">
+
+                    <h2>CONTACT INFO</h2>
+                    <p><strong>Address:</strong> 1085,3b2,sector 60,mohali Stadium Road , Mohali Punjab, 160059</p>
+                    <p><strong>Phone:</strong> (+91) 9816884822</p>
+                    <p><strong>Email:</strong> himsoni99@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+
+
         <main>
             <div class="main-container">
+                <!-- Hidden message to show when 'Hire Me' is clicked -->
+
                 <div class="intro ">
                     <!-- <div class="heading"> -->
                     <!-- <h1>Hi,I'm Himanshu</h1> -->
@@ -75,7 +109,7 @@
                         <div class="btn">
                             <button> <a href="https://resume-template-45ju.vercel.app/" target="_blank"
                                     style="text-decoration: none; color: black;">View CV</a></button>
-                            <button class="cont "><i class="bx bxs-user"></i> Hire Me!</button>
+                            <button class="cont " id="hireBtn"><i class="bx bxs-user"></i> Hire Me!</button>
 
                         </div>
                     </div>
@@ -270,7 +304,7 @@
                             <a href="">
 
                                 <img src="/statics/images.jpeg" alt="photo">
-                                 <span class="preview-button">Preview</span>
+                                <span class="preview-button">Preview</span>
                             </a>
                             <div class="card-text">
                                 <h3>FastAPI Development for GCP Services</h3>
@@ -281,7 +315,7 @@
                             <a href="">
 
                                 <img src="/statics/images.jpeg" alt="photo">
-                                 <span class="preview-button">Preview</span>
+                                <span class="preview-button">Preview</span>
 
                             </a>
                             <div class="card-text">
@@ -294,7 +328,7 @@
                             <a href="">
 
                                 <img src="/statics/images.jpeg" alt="photo">
-                                 <span class="preview-button">Preview</span>
+                                <span class="preview-button">Preview</span>
 
                             </a>
                             <div class="card-text">
@@ -307,7 +341,7 @@
                             <a href="https://vercel-frontend-sc7v.onrender.com">
 
                                 <img src="/statics/images.jpeg" alt="photo">
-                                 <span class="preview-button">Preview</span>
+                                <span class="preview-button">Preview</span>
 
                             </a>
                             <div class="card-text">
@@ -320,11 +354,11 @@
 
 
                                 <img src="/statics/weather.png " alt="photo">
-                                 <span class="preview-button">Preview</span>
+                                <span class="preview-button">Preview</span>
 
                             </a>
                             <div class="card-text">
-                                <h3>Weather App 
+                                <h3>Weather App
                                 </h3>
 
                             </div>
@@ -333,7 +367,7 @@
                             <a href="https://resume-template-eta.vercel.app/">
 
                                 <img src="/statics/images.jpeg" alt="photo">
-                                 <span class="preview-button">Preview</span>
+                                <span class="preview-button">Preview</span>
 
                             </a>
                             <div class="card-text">
@@ -629,10 +663,10 @@
                                 <div class="para">
                                     <div class="cont">
 
-                                        <p style="color: #fff;"><b style="color: #0f0f0f;">Phone
-                                                number</b><br>1234567890</p>
-                                        <p style="color: #fff;"><b
-                                                style="color: #0f0f0f;">Email</b><br>support@gmail.com</p>
+                                        <p style="color: #fff;"> <span style="color: black;">
+                                            Phone number:
+                                        </span>  9816884822</p>
+                                        <p style="color: #fff;"> <span  style="color: black;">Email:</span>  support@gmail.com</p>
                                     </div>
 
                                 </div>
@@ -654,10 +688,10 @@
     </div>
 
     <script>
-  function toggleNav() {
-    document.querySelector('.nav-bar').classList.toggle('show');
-  }
-</script>
+        function toggleNav() {
+            document.querySelector('.nav-bar').classList.toggle('show');
+        }
+    </script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
